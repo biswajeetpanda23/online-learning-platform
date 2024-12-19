@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Add your global styles */
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Custom button class for additional styling */
+  .custom-button {
+    background-color: #4f46e5; /* Indigo */
+    color: rgb(164, 58, 58);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-color: hsl(131, 83%, 21%); /* Darker Indigo */
+  }
+  
